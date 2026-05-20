@@ -11,6 +11,7 @@ export const Addition=()=>{
     }
         const Substract=()=>{
         var n1=Number(txtnum1.current.value);
+        
         var n2=Number(txtnum2.current.value);
         var c=n1-n2;
         setResult("Substraction = "+c);
